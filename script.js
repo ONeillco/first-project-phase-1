@@ -110,7 +110,7 @@ const getPokemon1 = () => {
         const height = document.createElement('p')
         const weight = document.createElement('p')
 
-        name.innerText = `Name: ${bulbasaur.name}`
+        name.innerText = 'Pokemon name ' + `${bulbasaur.name[0]}`.toUpperCase() + 'bulbasaur'.slice(1)
         // image.src = `Image: ${bulbasaur.image}`
         type.innerText = `Type: ${bulbasaur.type}`
         height.innerText = `Height: ${bulbasaur.height}`
