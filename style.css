@@ -1,3 +1,44 @@
 body {
-    background: blue;
-  } 
+    background-color: orangered;
+  }
+  
+  .card {
+    background-color: black;
+  }
+  
+  .pikachu {
+    background-color: orangered;
+  }
+  
+  .pikacolor {
+    padding: 38px;
+  }
+  .bulbacolor {
+    padding: 30px;
+  }
+  .charcolor {
+    padding: 30px;
+  }
+  .squirtlecolor {
+    padding: 43px;
+  }
+  
+  .pikaspeak {
+    background-color: black;
+    color: white;
+  }
+  
+  .pokemon1 {
+    background-color: red;
+    color: white;
+  }
+  
+  .pokemon2 {
+    background-color: blue;
+    color: white;
+  }
+  .pokemon3 {
+    background-color: green;
+    color: white;
+  }
+  
