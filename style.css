@@ -42,3 +42,7 @@ body {
     color: white;
   }
   
+  h1 {
+    color: aliceblue;
+    font-size: 100px;
+  }

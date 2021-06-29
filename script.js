@@ -179,7 +179,7 @@ const getPokemon2 = () => {
         const height = document.createElement('p')
         const weight = document.createElement('p')
 
-        name.innerText = `Name: ${charmander.name}`
+        name.innerText = 'Pokemon name ' + `${charmander.name[0]}`.toUpperCase() + 'charmander'.slice(1)
         // image.src = `Image: ${charmander.image}`
         type.innerText = `Type: ${charmander.type}`
         height.innerText = `Height: ${charmander.height}`
@@ -204,14 +204,14 @@ const squirtleinfo = document.querySelector('.pokemon3')
 
 //This line below works lets see if we can add an animation
 // card.addEventListener('click', function(){pokedex.style.background = 'lightblue'})
-squirtlecard.addEventListener('mouseover', function () { squirtlecard.style.background = 'blue' })
+squirtlecard.addEventListener('mouseover', function () { squirtlecard.style.background = 'skyblue' })
 squirtlecard.addEventListener('mouseleave', function () { squirtlecard.style.background = 'white' })
 squirtleinfo.addEventListener('click', changeText4)
 
 
 
 function changeText4() {
-    squirtleinfo.textContent = "When Squirtles retract their long necks into its shell, it squirts out water with vigorous force."
+    squirtleinfo.textContent = "After birth, its back swells and hardens into a shell, and can powerfully spray water from its mouth"
 }
 
 
@@ -242,7 +242,7 @@ const getPokemon3 = () => {
         const height = document.createElement('p')
         const weight = document.createElement('p')
 
-        name.innerText = `Name: ${squirtle.name}`
+        name.innerText = 'Pokemon name ' + `${squirtle.name[0]}`.toUpperCase() + 'squirtle'.slice(1)
         // image.src = `Image: ${squirtle.image}`
         type.innerText = `Type: ${squirtle.type}`
         height.innerText = `Height: ${squirtle.height}`
