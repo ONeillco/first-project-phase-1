@@ -26,7 +26,7 @@ const getPokemon = (pokemon) => {
     fetch(url + pokemon)
         .then(resp => resp.json())
         .then(data => {
-            console.log(data);
+            // console.log(data);
 
             const pikachu = {
                 name: data.name,
@@ -43,7 +43,7 @@ const getPokemon = (pokemon) => {
 
     const pokeBall = pikachu => {
 
-        console.log(pikachu);
+        // console.log(pikachu);
 
         const ul = document.getElementById('pokedex')
         const li = document.createElement('li')
@@ -70,8 +70,10 @@ const getPokemon = (pokemon) => {
     }
 }
 
+document.addEventListener('DOMContentLoaded', function () {
 
-getPokemon('pikachu')
-getPokemon('bulbasaur')
-getPokemon('charmander')
-getPokemon('squirtle')
+    getPokemon('pikachu')
+    getPokemon('bulbasaur')
+    getPokemon('charmander')
+    getPokemon('squirtle')
+})
