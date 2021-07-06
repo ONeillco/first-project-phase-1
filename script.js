@@ -1,3 +1,4 @@
+
 const card = document.querySelector('.pikacolor')
 const info = document.querySelector('.pikaspeak')
 const info1 = document.querySelector('.bulbspeak')
@@ -56,7 +57,6 @@ const getPokemon = (pokemon) => {
         type.innerText = `Type: ${pikachu.type}`
         height.innerText = `Height: ${pikachu.height}`
         weight.innerText = `Weight: ${pikachu.weight}`
-        div.innerText = 'Hello World'
 
 
         li.appendChild(name)
@@ -69,6 +69,8 @@ const getPokemon = (pokemon) => {
 
     }
 }
+
+
 getPokemon('pikachu')
 getPokemon('bulbasaur')
 getPokemon('charmander')
